@@ -16,3 +16,33 @@ img {
   display: block;
   max-width: 100%;
 }
+
+/* timer */
+div.timer {
+  justify-content: center;
+  gap: 20px;
+  padding: 70px;
+  font-size: 30px;
+  line-height: 1;
+  display: flex;
+}
+
+.value {
+  font-size: 50px;
+  color: rgb(128, 0, 0);
+}
+
+.label {
+  font-weight: 500;
+  font-size: 16px;
+  color: rgb(16, 0, 139);
+}
+
+#datetime-picker {
+  width: 200px;
+  height: 24px;
+  border: 1px solid blue;
+  border-radius: 8px;
+  font: inherit;
+  text-align: center;
+}
